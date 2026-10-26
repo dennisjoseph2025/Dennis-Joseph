@@ -502,7 +502,7 @@ a {
   border: 1px solid var(--line);
   border-radius: 14px;
   background: var(--paper-alt);
-  aspect-ratio: 16 / 11;
+  aspect-ratio: 16 / 9;
   transition: border-color .35s var(--ease);
 }
 .work-media::after {
@@ -936,7 +936,7 @@ a {
 
   .work-detail-in { grid-template-columns: minmax(0, 1fr); gap: 1.1rem; }
   .work-item:nth-child(even) .work-media { order: 0; }
-  .work-media { aspect-ratio: 16 / 10; }
+  .work-media { aspect-ratio: 16 / 9; }
   .work-btn { flex-wrap: wrap; }
   .work-cat { order: 3; flex: 1 0 100%; margin-left: 0; text-align: left; }
   .work-plus { margin-left: auto; }
